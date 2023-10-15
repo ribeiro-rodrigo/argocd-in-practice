@@ -7,7 +7,7 @@ data:
     - when: app.status.operationState.phase in ['Succeeded', 'Error', 'Failed']
       send: [gitlab-webhook]
   service.webhook.gitlab: |
-    url: ""
+    url: "http://192.168.1.9:8000"
     headers:
     - name: Content-Type
       value: multipart/form-data
