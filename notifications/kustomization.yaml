@@ -3,3 +3,5 @@ kind: Kustomization
 namespace: argocd 
 bases:
   - github.com/argoproj-labs/argocd-notifications/manifests/controller?ref=v1.1.1
+patchesStrategicMerge:
+  - patches/argocd-notifications-cm.yaml
