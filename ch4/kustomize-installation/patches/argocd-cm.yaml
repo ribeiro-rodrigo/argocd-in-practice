@@ -5,4 +5,4 @@ metadata:
 data:
   accounts.alina: apikey, login
   accounts.gitops-ci: apikey
-  admin.enabled: "false"
+  admin.enabled: "true"
