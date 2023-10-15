@@ -4,3 +4,4 @@ metadata:
   name: argocd-cm
 data:
   accounts.alina: apikey, login
+  admin.enabled: "false"
