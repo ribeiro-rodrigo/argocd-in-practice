@@ -8,7 +8,7 @@ spec:
       description: read and sync privileges
       policies:
         - p, proj:argocd:read-sync, applications, get, argocd/*, allow
-        - p, proj:argpocd:read-sync, applications, sync, argocd/*, allow
+        - p, proj:argocd:read-sync, applications, sync, argocd/*, allow
   clusterResourceWhitelist:
     - group: '*'
       kind: '*'
