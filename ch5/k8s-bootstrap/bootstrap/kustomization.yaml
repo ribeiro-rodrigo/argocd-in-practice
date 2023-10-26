@@ -8,3 +8,8 @@ resources:
   - resources/namespace.yaml 
 patchesStrategicMerge:
   - patches/argocd-cm.yaml
+  - patches/argocd-application-controller-network-policy.yaml
+  - patches/argocd-dex-server-network-policy.yaml
+  - patches/argocd-redis-network-policy.yaml
+  - patches/argocd-repo-server-network-policy.yaml
+  - patches/argocd-server-network-policy.yaml
